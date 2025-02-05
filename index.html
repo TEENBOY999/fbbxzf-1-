@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+<style>
+    .item:hover {
+        color: rgb(0, 98, 255);
+    }
+
+    .box:hover {
+        font-size: 20px;
+        transition: 2s;
+    }
+
+    .box {
+        transition: 2s;
+        cursor: pointer;
+    }
+  
+</style>
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <header class="bg-dark">
+
+<div class="container">
+
+
+
+
+
+
+
+<div class="d-flex" style="justify-content: space-between;">
+    <div class="d-flex" style="align-items: center;">
+
+
+
+        <img class="bg-white" style="border-radius: 100%;"  src="./icons8-github.svg" alt="">
+        <div class="span">
+            <button class="btn btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Product
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" style="display: flex; gap: 10px;" href="#">
+                <img style="width: 20px; height: 20px;" src="./two-rounded-equal-squares-outlines-symbol.png" alt="">
+                <div class="">
+                    <h5>Actions</h5>
+                    <p class="text-secondary">
+                        Autmate any work flow
+                    </p>
+                </div>
+              </a></li>
+              <li><a class="dropdown-item" style="display: flex; gap: 10px;" href="#">
+                <img style="width: 20px; height: 20px;" src="./two-rounded-equal-squares-outlines-symbol.png" alt="">
+                <div class="">
+                    <h5>Actions</h5>
+                    <p class="text-secondary">
+                        Autmate any work flow
+                    </p>
+                </div>
+              </a></li>
+    
+              <li><a class="dropdown-item" style="display: flex; gap: 10px;" href="#">
+                <img style="width: 20px; height: 20px;" src="./two-rounded-equal-squares-outlines-symbol.png" alt="">
+                <div class="">
+                    <h5>Actions</h5>
+                    <p class="text-secondary">
+                        Autmate any work flow
+                    </p>
+                </div>
+              </a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            solutions
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"> <h5>for</h5> </a></li>
+              <li><a class="item dropdown-item" style="color: grey; " href="#">enter price</a></li>
+              <li><a class="item dropdown-item" style="color: grey; " href="#">tearmes</a></li>
+              <li><a class="item dropdown-item" style="color: grey; " href="#">Staprus</a></li>
+              <li><a class="item dropdown-item" style="color: grey; " href="#">Eduction</a></li>
+            </ul>
+          </div>
+    
+          <div class="dropdown">
+            <button class="btn btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+             open source
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"> <h5>repositories</h5> </a></li>
+              <li><a class="item dropdown-item" style="color: grey; " href="#"></a></li>
+              <li><a class="item dropdown-item" style="color: grey; " href="#">tearmes</a></li>
+              <li><a class="item dropdown-item" style="color: grey; " href="#">Staprus</a></li>
+              <li><a class="item dropdown-item" style="color: grey; " href="#">Eduction</a></li>
+            </ul>
+          </div>
+    
+          <div class="dropdown">
+            <button class="btn btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+           pricing
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+    
+    
+    </div>
+    <div class="">
+        <!-- Button trigger modal -->
+<button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    sign in
+  </button>
+
+  <button type="button" style="border: 2px solid white;" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    sign up
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-">
+          
+      <img  class="text-center" style=" margin-left: 220px ; margin-top: 20px; width: 50px; height: 50px;" src="./sun.png" alt="">
+      <h1 class="text-center"> Sign in</h1>
+      <p class="text-center" style="font-weight: bold; color: grey;" >welcome back enter your email and pasword <br>
+        bellow to sign in
+      </p>
+        </div>
+        <div class="modal-body">
+        <label for="" class="text-secondary">Email</label> <br>
+        <input placeholder="enter your email" style="width: 300px; height: 40px;" type="text"> <br>
+
+
+        <label for="" class="text-secondary">Pasword</label> <br>
+        <input placeholder="enter your email" style="width: 300px; height: 40px;" type="password"> <br>
+
+
+
+        <div class="d-flex" style="justify-content: space-between; align-items: center;">
+            <div class="">
+                <input style="margin-top: 20px; accent-color: rgb(0, 94, 255);  width: 30px; height: 20px; " type="checkbox">
+        <label for="">Keep me Logged in</label>
+            </div>
+
+            <div class=" box  text-secondary">
+                Forgot Pasword
+            </div>
+        </div>
+        </div>  
+  
+
+<button style="width: 450px; margin-left: 25px; height: 50px; border: none; border-radius: 10px; margin-bottom: 20px; color: white;" class="button bg-primary">sign in</button>
+<div class="d-flex" style="justify-content: space-evenly; margin-bottom: 30px;">
+    <div class=" " style=" display: flex; align-items: center; justify-content: center; border-radius: 10px; width: 100px; height: 60px; background-color: black;"><img style="width: 40px; height: 40px;" src="./apple (1).png" alt=""></div>
+    <div class=" " style=" display: flex; align-items: center; justify-content: center; border-radius: 10px; width: 100px; height: 60px; border: 2px solid grey;"><img style="width: 40px; height: 40px;" src="./face-book.png" alt=""></div>
+   <div class=" " style=" display: flex; align-items: center; justify-content: center; border-radius: 10px; width: 100px; height: 60px; background-color: rgb(0, 140, 255);"> <img style="width: 40px; height: 40px;" src="./twitter (1).png" alt=""></div>
+    <div class=" " style=" display: flex; align-items: center; justify-content: center; border-radius: 10px; width: 100px; height: 60px; border: 2px solid grey;"><img style="width: 40px; height: 40px;" src="./search (3).png" alt=""></div>
+</div>
+
+<p class="text-secondary text-center">Dont habe anaccount <span style="color: blue;"><a href="Sign in">Sign in</a></span></p>
+
+
+      </div>
+    </div>
+  </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>
